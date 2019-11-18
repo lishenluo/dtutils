@@ -1,4 +1,4 @@
-from DTUtils import *
+from dtutils import *
 
 if __name__=="__main__":
     print(nowdatetime('%Y-%m-%d %H:%M:%S.%f'))

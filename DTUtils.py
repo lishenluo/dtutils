@@ -39,7 +39,7 @@ def nowtimetag():
 def nowmillitimetag():
     '''
     获取当前日期时间对应的时间戳（毫秒级）
-    :return:
+    :return:毫秒级时间戳int
     '''
     return int(round(time.time()*1000))
 
@@ -48,7 +48,7 @@ def timetag2datetime(timetag, type="%Y-%m-%d %H:%M:%S"):
     时间戳转换成日期时间
     :param timetag:时间戳，int，float，秒级或毫秒级时间戳都行
     :param type:转换的日期时间格式，默认"%Y-%m-%d %H:%M:%S"
-    :return:
+    :return:指定格式的日期时间str
     '''
     #传入的是毫秒级的时间戳
     if timetag > 10 ** 10:
