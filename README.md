@@ -49,8 +49,8 @@ def deltadatetime(strdatetime=None, days=0, hours=0, minutes=0, seconds=0, milli
     :param type:参照日期时间格式和输出的日期时间格式<br>
     :return:str<br>
 
-## 下载使用
-下载整个文件夹dtutils,把该文件夹存放在python的安装目录下存放第三方库的Lib下的site-packages文件夹下。
+## 安装使用
+pip install dtutils
 
 ## 使用示例 
 ```python
